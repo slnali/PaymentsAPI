@@ -9,4 +9,7 @@
 - Given that data might be queried in across a range of columns perhaps SQL database would be best
 - DI Container for handling dependencies e.g. using framework like Lamar
 - Enforce some data validation checks at the model level but controller should perhaps contain a validation checker to make sure the payment is valid
+- Unit tests at controller level for higher level functional/integration tests of below components and lower level at unit for repositories
+- Could have had nested models for User details & Card details in the payments model to further define purpose of data
+- Use SpecFlow for defining tests alongside documentation to make more readable
 
