@@ -3,6 +3,11 @@
 - Basic CRUD API, didn't stretch too far with enforcing CRUD for persistence as it would require more "Boilerplate" code
 - Create Payment sends response to Merchant to confirm that payment was created, have not hidden card details here though
 
+#Technologies used
+
+- Language: C# Framework: .NET 5
+- Packages: EF Core, xUnit, Swashbuckle
+
 # Future improvements
 
 - Currently just created a quick in memory data store, for production of course data should be persisted to backend database
